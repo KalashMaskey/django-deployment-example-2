@@ -25,7 +25,10 @@ SECRET_KEY = 't!f^ax1)ib0h0_4=ag+m^9*vr_9nfl%67tfy7%xb^_c6elo2nu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+'kalashmaskey.pythonanywhere.com',
+'localhost','127.0.0.1'
+]
 
 
 # Application definition
